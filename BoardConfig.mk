@@ -103,6 +103,7 @@ ifeq ($(HOST_OS),linux)
   ifneq ($(TARGET_BUILD_VARIANT),eng)
     ifeq ($(WITH_DEXPREOPT),)
       WITH_DEXPREOPT := true
+      DONT_DEXPROPT_PREBUILTS := false
     endif
   endif
 endif
