@@ -23,7 +23,7 @@
 TARGET_USES_CHINOOK_SENSORHUB := false
 
 ifeq ($(TARGET_PREBUILT_KERNEL),)
-  LOCAL_KERNEL := device/lge/bullhead-kernel/Image.gz-dtb
+  LOCAL_KERNEL := device/abc/bullhead-kernel/Image.gz-dtb
 else
   LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
 endif
