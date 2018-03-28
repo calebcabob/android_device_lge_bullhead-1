@@ -137,6 +137,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/lge/bullhead/sec_config:system/etc/sec_config
 
+# GPS
+PRODUCT_PACKAGES += \
+	gps.msm8992
+
 # NFC config files
 PRODUCT_COPY_FILES += \
     device/lge/bullhead/nfc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
