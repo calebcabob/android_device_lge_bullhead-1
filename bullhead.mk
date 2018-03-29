@@ -38,11 +38,10 @@ $(call inherit-product-if-exists, vendor/lge/bullhead/bullhead-vendor.mk)
 $(call inherit-product-if-exists, vendor/pixel2rom/config/common_full_phone.mk)
 $(call inherit-product-if-exists, vendor/gapps/gapps.mk)
 $(call inherit-product-if-exists, vendor/pixel2rom/sdclang/sdclang.mk)
+$(call inherit-product, device/shadow/bullhead-kernel/shadow.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=walleye \
     BUILD_FINGERPRINT="google/bullhead/bullhead:8.1.0/OPM3.171019.016/4565142:user/test-keys" \
     PRIVATE_BUILD_DESC="bullhead-user 8.1.0 OPM3.171019.016 4565142 test-keys" \
-    TARGET_DEVICE=walleye \
-    PRODUCT_DEVICE=walleye \
     PRODUCT_MODEL="Pixel 2"
