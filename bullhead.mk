@@ -45,4 +45,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="bullhead-user 8.1.0 OPM3.171019.016 4565142 test-keys" \
     TARGET_DEVICE=walleye \
     PRODUCT_DEVICE=walleye \
-    PRODUCT_MODEL=Pixel 2
+    PRODUCT_MODEL="Pixel 2"
